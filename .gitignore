@@ -1,10 +1,9 @@
-# For projects using Nanoc (http://nanoc.ws/)
-
-# Default location for output (needs to match output_dir's value found in nanoc.yaml)
-output/
+# For projects using Netbeans
 
 # Temporary file directory
-tmp/nanoc/
+tmp/
 
-# Crash Log
-crash.log
+#Netbeans build files and project files
+/nbproject/
+*.netbeans_automatic_build
+*.netbeans_update_resources
